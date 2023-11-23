@@ -1,0 +1,1188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .photo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Hemise bu qaydada olamlidir */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .head {
+    position: absolute;
+    /*   top: 0;
+    left: 0; */
+    color: #fff;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+}
+
+header .head h2 {
+
+    /*   line-height: 1.2; */
+    /*  margin-top: 20px;
+    margin-bottom: 20px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Lato, sans-serif;
+}
+
+header .head h1 {
+    text-shadow: 4px 4px 8px rgba(66, 84, 101, 0.4);
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: Lato, sans-serif;
+}
+
+header .head h5 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 2px;
+    /* line-height: 1.4; */
+    font-weight: 300;
+    /* font-size: 1.5rem; */
+    /* margin: 30px 0; */
+}
+
+header .head a {
+    border-color: #ffffff;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*  font-size: 1.125rem; */
+    color: #fff;
+    padding: 20px 55px 21px 54px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+header .head .wonder {
+    width: 100%;
+    height: 200px;
+}
+
+header .head .wonder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .head h2 {
+    /*  font-size: 1.25rem; */
+    /*    line-height: 1.2; */
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+section .tour {
+    /* background-color: red; */
+    bottom: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: grid; */
+    gap: 25px;
+    /*  grid-template-columns: 1fr 1fr 1fr 1fr; */
+    padding: 10px;
+}
+
+section .tour .world {
+    border-color: #f58d54;
+    border: 5px solid #f58d54;
+    height: 288px;
+    width: 257px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50px;
+    /* padding: 0 50px; */
+    text-align: center;
+    background-color: #293233;
+    padding: 6px;
+}
+
+section .tour .world h2 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 20px 0 0;
+}
+
+section .tour .world i {
+    font-size: 50px;
+    color: #fff;
+}
+
+section .tour .world p {
+    line-height: 2;
+    margin: 20px 1px 0;
+}
+
+section {
+    background-color: #293233;
+
+}
+
+.bottom {
+    padding-top: 250px;
+    position: relative;
+
+}
+
+section .circle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 190px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+section .circle .circle-left {
+    width: 400px;
+}
+
+section .circle .circle-left h2 {
+    color: #f58d54;
+    font-size: 3.125rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+section .circle .circle-left p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 45px 0;
+}
+
+section .circle .circle-left a {
+    color: #f58d54;
+    border: 2px solid #f58d54;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    height: 50px;
+    width: 182px;
+    display: block;
+    display: flex;
+    /* padding: 17px 53px 17px 52px; */
+    align-items: center;
+    justify-content: center;
+}
+
+section .circle .circle-left a:hover {
+    color: #111111;
+    background-color: #ffffff;
+}
+
+section .circle .circle-right {
+    height: 500px;
+    position: relative;
+    bottom: 13px;
+}
+
+section .circle .circle-right i {
+    font-size: 200px;
+    color: #f58d54;
+
+}
+
+section .circle .circle-right .circle-1 {
+    position: absolute;
+    top: -51px;
+    right: 94px;
+}
+
+section .circle .circle-right .circle-2 {
+    position: relative;
+    font-size: 100px;
+    top: -315px;
+    right: 572px;
+}
+
+section .circle .circle-right .fa-water {
+    position: absolute;
+    font-size: 150px;
+    /* top: 296px; */
+    bottom: 5px;
+    right: 388px;
+}
+
+section .circle .circle-right img {
+    position: relative;
+    /* top: -220px; */
+    /* right: 50px; */
+    width: 550px;
+    border-radius: 100%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+
+    gap: 180px;
+    padding: 200px;
+
+}
+
+.text .text-1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    border: 7px solid #fff;
+}
+
+.text .text-2 {
+    width: 389px;
+    height: 389px;
+    border-radius: 100%;
+    border: 4px solid #f58d54;
+    top: -180px;
+    position: relative;
+    right: 170px;
+
+}
+
+.text .text-right i {
+    top: -359px;
+    position: relative;
+}
+
+.text .text-left {
+    position: relative;
+    top: -205px;
+}
+
+.text .text-3 {
+    width: 276px;
+    height: 276px;
+    border-radius: 100%;
+    border: 4px solid #f58d54;
+}
+
+.text .circle-fa {
+    font-size: 200px;
+    color: #435152;
+}
+
+.text .circle-regular {
+    font-size: 100px;
+    color: #f58d54;
+}
+
+.trip {
+    width: 100%;
+}
+
+.trip-title {
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 59%;
+    /*  width: 1040px; */
+}
+
+.trip h2 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.trip p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2;
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 50px
+}
+
+.trip p a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.trip .read {
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px auto 0;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: #ffffff;
+    padding: 16px 52px 17px;
+    text-decoration: none;
+}
+
+.trip .read:hover {
+    color: #111111;
+    background-color: #ffffff;
+}
+
+.small h1 {
+    padding: 0 240px;
+}
+
+.travel {
+    padding-top: 300px;
+}
+
+.travel .group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+
+.travel h1 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.travel .group-left {
+    background-color: #ffffff;
+
+    width: 400px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.travel .group-left p {
+    color: #111111;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.travel .group-left a {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px auto 0 0;
+    padding: 16px 52px 17px;
+    color: #f58d54;
+    border: 1px solid #f58d54;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.travel .group-left a:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.travel .group-right .text-4 {
+    width: 420px;
+    height: 420px;
+
+}
+
+.travel .group-right .text-4 img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.travel .group-right p {
+    color: #ffffff;
+    text-align: end;
+    font-size: 1rem;
+}
+
+.travel .group-right p a {
+    color: #ffffff;
+    text-align: end;
+    font-size: 1rem;
+}
+
+.enjoy {
+    text-align: center;
+    padding: 50px 250px;
+}
+
+.enjoy h1 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.enjoy .mountain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px
+}
+
+.enjoy .free {
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.enjoy .free a {
+    color: #ffffff;
+}
+
+.enjoy .mountain .mountain-1 {
+    width: 322px;
+    background-color: #ffffff;
+    text-align: start;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.enjoy .mountain .mountain-1 .text-5 {
+    width: 147px;
+    height: 147px;
+}
+
+.enjoy .mountain .mountain-1 .text-5 img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.enjoy .mountain .mountain-1 h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.enjoy .mountain .mountain-1 p {
+    font-size: 1.25rem;
+    margin: 27px 0;
+    line-height: 2;
+    color: #808080
+}
+
+.enjoy .mountain .mountain-1 a {
+    color: #666666;
+}
+
+.article-wrap {
+    font-size: 200px;
+    color: #435152;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 250px; */
+}
+
+.article-wrap .article {
+    background-color: #ffffff;
+    width: 500px;
+    height: 524px;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 100px;
+    /* position: relative;
+    top: -236px;
+    left: 450px; */
+}
+
+.article-wrap .article-right .right-orange {
+    /*  
+    top: 200px;
+    position: relative;
+    right: 100px; */
+    background-color: #f58d54;
+    border: 20px solid #f58d54;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.article-wrap .article-left,
+.article-right {
+    width: 100%;
+
+    display: flex;
+}
+
+.article-wrap .article-right {
+    display: flex;
+    gap: 240px;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.article-wrap .article-left .left-gray {
+
+    border: 50px solid gray;
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+
+}
+
+.article-wrap .article h2 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+}
+
+.article-wrap .article p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 26px 0 0;
+    line-height: 2;
+}
+
+.article-wrap .article p a {
+    color: #111111
+}
+
+.article-wrap .article .link {
+    color: #ffffff;
+    background-color: #f58d54;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    background-image: none;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 16px 25px 17px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 35px;
+}
+
+.article-wrap .article .link a:hover {
+    color: #ffffff;
+    background-color: #435152;
+}
+
+.article-wrap .girl {
+    width: 550px;
+    height: 550px;
+}
+
+.article-wrap .girl img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.celia {
+    padding: 100px 250px;
+}
+
+.celia .celia-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.celia .celia-title .celia-wrap i {
+    color: #f58d54
+}
+
+.celia .celia-title .celia-wrap p {
+    line-height: 2;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.celia .celia-title .celia-wrap h2 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+}
+
+.nature-head {
+    padding: 250px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/man-with-rucksack-admires-gorgeous-mountain-555.jpg);
+    background-position: 50% 50%;
+}
+
+section .nature {
+    width: 419px;
+}
+
+section .nature h2 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+}
+
+section .nature p {
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    margin: 20px 0 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+section .nature .icon {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto 0 0;
+}
+
+section .nature .icon i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+section .nature .freepik {
+    color: #ffffff;
+    line-height: 2;
+    margin: 50px 0 0;
+}
+
+section .nature .freepik a {
+    color: #ffffff;
+    line-height: 2;
+}
+
+.img-left-text2 {
+    border-radius: 100px;
+    height: 190px;
+    width: 190px;
+}
+
+.img-right-text2 {
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
+    border: 10px solid white;
+}
+
+.img2-right-text2 {
+    border-radius: 100%;
+    height: 260px;
+    width: 260px;
+    border: 14px solid orangered;
+}
+
+.img2-right-text2 img,
+.img-right-text2 img,
+.img-left-text2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* align-items: center; */
+    padding: 151px 0;
+    flex-wrap: wrap;
+}
+
+.left-text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+    left: 0px;
+}
+
+.left-round {
+    height: 100px;
+    width: 100px;
+    border: 20px solid orangered;
+    border-radius: 100%;
+    position: relative;
+    right: 46px;
+}
+
+.right-text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.right-round {
+    height: 140px;
+    width: 140px;
+    border: 25px solid gray;
+    border-radius: 100%;
+}
+
+.leman {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 235px; */
+    align-items: end;
+    position: absolute;
+    bottom: 91px;
+    /* right: 30px; */
+}
+
+.touch {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch .touch-wrap h2 {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    text-align: center;
+    padding: 70px 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+}
+
+.touch .touch-wrap .email .email-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.touch .touch-wrap .email .email-left .adress {
+    width: 100%;
+}
+
+.touch .touch-wrap .email .email-left .adress input {
+    background-color: #435152;
+    width: 100%;
+    padding: 10px 12px;
+    border-bottom-color: 2px solid #ffffff;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.touch .touch-wrap .email .email-right {
+    margin: 40px 0;
+
+}
+
+.touch .touch-wrap .email .email-right textarea {
+    background-color: #435152;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 300;
+    border-bottom: 2px solid #ffffff;
+}
+
+.touch .touch-wrap .email .submit {
+    width: 100%;
+}
+
+.touch .touch-wrap .email .submit a {
+    color: #111111;
+    background-color: #f8ae86;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 29px 21px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.touch .touch-wrap .email .submit a:hover {
+    color: #ffffff;
+    background-color: #435152;
+}
+
+.touch .touch-wrap .email p {
+    font-size: 0.875rem;
+    margin: 150px 0;
+    padding: 0 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+}
+
+footer a {
+    font-size: 0.8rem;
+    color: #0676a4;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
+    .enjoy {
+        padding: 0;
+    }
+
+    .travel {
+        padding: 30px;
+    }
+
+    .black {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .celia {
+        padding: 30px;
+    }
+
+    .touch {
+        padding: 30px;
+    }
+
+    .small h1 {
+        padding: 50px 100px;
+    }
+
+    .enjoy h1 {
+        padding: 30px;
+    }
+
+    .touch .touch-wrap .email p {
+        padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    header .head .wonder {
+        height: 100%;
+    }
+
+    .leman {
+        display: flex;
+        align-items: end;
+        position: absolute;
+        bottom: 91px;
+        /* right: 30px; */
+    }
+
+    .text2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enjoy .mountain .mountain-1 {
+        width: 100%;
+    }
+
+    .black {
+        padding-top: 30px;
+    }
+
+    .img-right-text2 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .img2-right-text2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    section .tour .world {
+        width: 100%;
+    }
+
+    .travel {
+        padding: 30px;
+    }
+
+    section .circle {
+        gap: 50px;
+    }
+
+    .travel .group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy .mountain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .celia {
+        padding: 20px;
+    }
+
+    .nature-head {
+        padding: 20px;
+    }
+
+    section .circle {
+        padding: 0;
+    }
+}
+
+@media (max-width:550px) {
+    .head {
+        padding: 20px;
+    }
+
+    header .head .wonder {
+        height: 100%;
+    }
+
+    section .circle .circle-right img {
+        width: 320px;
+        height: 320px;
+    }
+
+    section .circle .circle-right .fa-water {
+        position: absolute;
+        bottom: 159px;
+        right: 135px;
+    }
+
+    .img2-right-text2 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .img-right-text2 {
+        width: 280px;
+        height: 280px;
+    }
+
+    section .circle .circle-left h2 {
+        color: #f58d54;
+        font-size: 1.5rem;
+    }
+
+    section .nature p {
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+
+    section .nature {
+        width: 100%;
+    }
+
+    section .circle .circle-left {
+        width: 100%;
+    }
+
+    .travel .group-left {
+        width: 100%;
+    }
+
+    .right-round {
+        height: 120px;
+        width: 120px;
+    }
+
+    .trip h2 {
+        font-size: 1.75rem;
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .leman {
+        gap: 50px;
+        position: absolute;
+        bottom: 40px;
+    }
+
+    .travel {
+        padding-top: 50px;
+    }
+
+    .small h1 {
+        padding: 10px;
+    }
+
+    .trip-title {
+        width: 100%;
+    }
+
+    .celia .celia-title {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .travel h1 {
+        font-size: 1.7rem;
+    }
+
+    section .tour {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .travel .group-right .text-4 {
+        width: 320px;
+        height: 320px;
+    }
+
+    .black {
+        padding: 30px;
+    }
+
+    .article-wrap .girl {
+        width: 320px;
+        height: 320px;
+    }
+
+    section .nature h2 {
+        font-size: 2.7rem;
+    }
+
+    section .tour .world {
+        width: 100%;
+    }
+
+    .touch .touch-wrap .email .email-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .travel {
+        padding: 30px;
+    }
+
+    section .circle {
+        gap: 150px;
+    }
+
+    .travel .group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy .mountain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .celia {
+        padding: 20px;
+    }
+
+    .nature-head {
+        padding: 20px;
+    }
+
+    .article-wrap .article-right {
+        position: relative;
+        align-items: start;
+        bottom: 290px;
+    }
+
+    .article-wrap .article-left,
+    .article-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-wrap .article {
+        background-color: #ffffff;
+        width: 300px;
+        height: 100%;
+    }
+
+    .article-wrap .article h2 {
+        font-size: 1.75rem;
+    }
+
+    .article-wrap .article p {
+        font-size: 1rem;
+    }
+
+    .article-wrap {
+        padding-top: 70px;
+    }
+
+    .article-wrap .article-left .left-gray {
+        width: 200px;
+        height: 200px;
+    }
+
+    .enjoy h1 {
+        font-size: 1.75rem;
+    }
+}
